@@ -560,12 +560,16 @@ html {
   position: relative;
 }
 
-.top-14{
-  top: 3.5rem;
+.left-1\/2{
+  left: 50%;
 }
 
-.top-28{
-  top: 7rem;
+.top-1\/2{
+  top: 50%;
+}
+
+.top-14{
+  top: 3.5rem;
 }
 
 .top-52{
@@ -584,9 +588,56 @@ html {
   top: 12.6rem;
 }
 
-.mx-auto{
-  margin-left: auto;
-  margin-right: auto;
+.top-8{
+  top: 2rem;
+}
+
+.top-7{
+  top: 1.75rem;
+}
+
+.top-2{
+  top: 0.5rem;
+}
+
+.top-80{
+  top: 20rem;
+}
+
+.top-72{
+  top: 18rem;
+}
+
+.left-44{
+  left: 11rem;
+}
+
+.left-48{
+  left: 12rem;
+}
+
+.top-60{
+  top: 15rem;
+}
+
+.top-36{
+  top: 9rem;
+}
+
+.top-40{
+  top: 10rem;
+}
+
+.top-44{
+  top: 11rem;
+}
+
+.top-\[10\.5rem\]{
+  top: 10.5rem;
+}
+
+.top-32{
+  top: 8rem;
 }
 
 .flex{
@@ -604,6 +655,16 @@ html {
 
 .w-72{
   width: 18rem;
+}
+
+.-translate-x-1\/2{
+  --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-translate-y-1\/2{
+  --tw-translate-y: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .transform{
@@ -698,8 +759,44 @@ html {
     height: 18rem;
   }
 
+  .sm\:h-28{
+    height: 7rem;
+  }
+
   .sm\:w-11\/12{
     width: 91.666667%;
+  }
+
+  .sm\:w-72{
+    width: 18rem;
+  }
+
+  .sm\:text-\[1rem\]{
+    font-size: 1rem;
+  }
+
+  .sm\:text-\[1\.18rem\]{
+    font-size: 1.18rem;
+  }
+
+  .sm\:text-\[1\.25rem\]{
+    font-size: 1.25rem;
+  }
+
+  .sm\:text-\[1\.2rem\]{
+    font-size: 1.2rem;
+  }
+
+  .sm\:text-\[1\.17rem\]{
+    font-size: 1.17rem;
+  }
+
+  .sm\:text-\[1\.13rem\]{
+    font-size: 1.13rem;
+  }
+
+  .sm\:text-\[1\.15rem\]{
+    font-size: 1.15rem;
   }
 
   .sm\:font-bold{
@@ -708,16 +805,36 @@ html {
 }
 
 @media (min-width: 1024px){
-  .lg\:top-10{
-    top: 2.5rem;
+  .lg\:top-12{
+    top: 3rem;
   }
 
   .lg\:top-16{
     top: 4rem;
   }
 
-  .lg\:top-36{
-    top: 9rem;
+  .lg\:top-7{
+    top: 1.75rem;
+  }
+
+  .lg\:top-8{
+    top: 2rem;
+  }
+
+  .lg\:top-9{
+    top: 2.25rem;
+  }
+
+  .lg\:top-10{
+    top: 2.5rem;
+  }
+
+  .lg\:top-20{
+    top: 5rem;
+  }
+
+  .lg\:top-11{
+    top: 2.75rem;
   }
 
   .lg\:flex{
@@ -732,31 +849,60 @@ html {
     height: 6rem;
   }
 
-  .lg\:h-\[17\.7rem\]{
-    height: 17.7rem;
+  .lg\:h-\[20rem\]{
+    height: 20rem;
   }
 
   .lg\:w-\[26\.7rem\]{
     width: 26.7rem;
   }
 
-  .lg\:w-\[32rem\]{
-    width: 32rem;
+  .lg\:w-\[36rem\]{
+    width: 36rem;
   }
 
-  .lg\:rounded-xl{
-    border-radius: 0.75rem;
+  .lg\:w-\[27\.7rem\]{
+    width: 27.7rem;
+  }
+
+  .lg\:rounded-2xl{
+    border-radius: 1rem;
   }
 
   .lg\:text-base{
     font-size: 0.76rem;
   }
 
-  .lg\:font-bold{
-    font-weight: 700;
+  .lg\:text-\[1\.35rem\]{
+    font-size: 1.35rem;
   }
 
-  .lg\:font-semibold{
-    font-weight: 600;
+  .lg\:text-\[1\.45rem\]{
+    font-size: 1.45rem;
+  }
+
+  .lg\:text-\[1\.4rem\]{
+    font-size: 1.4rem;
+  }
+
+  .lg\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .lg\:text-\[0\.83rem\]{
+    font-size: 0.83rem;
+  }
+
+  .lg\:text-\[0\.81rem\]{
+    font-size: 0.81rem;
+  }
+
+  .lg\:text-\[0\.8rem\]{
+    font-size: 0.8rem;
+  }
+
+  .lg\:font-bold{
+    font-weight: 700;
   }
 }
